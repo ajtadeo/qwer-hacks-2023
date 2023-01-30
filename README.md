@@ -1,7 +1,7 @@
 # EBTea
 
 ## QWERhacks
-This project was originally created during QWERhacks 2023 where it won the title "Comeback Baby". EBTea was created by Alyssa Tadeo, [Alex West](https://github.com/awest25), [Tyler Tran](https://github.com/tylerdtran), and [Colleen Lam](https://github.com/colleenhlam). The Devpost for this hackathon project is available at (https://devpost.com/software/ebtea)[https://devpost.com/software/ebtea].
+This project was originally created during QWERhacks 2023 where it won the title "Comeback Baby". EBTea was created by Alyssa Tadeo, [Alex West](https://github.com/awest25), [Tyler Tran](https://github.com/tylerdtran), and [Colleen Lam](https://github.com/colleenhlam). The Devpost for this hackathon project is available at https://devpost.com/software/ebtea.
 
 ## Inspiration
 
