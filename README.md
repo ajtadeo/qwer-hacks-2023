@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# EBTea
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## QWERhacks
+This project was originally created during QWERhacks 2023 where it won the title "Comeback Baby". EBTea was created by Alyssa Tadeo, [Alex West](https://github.com/awest25), [Tyler Tran](https://github.com/tylerdtran), and [Colleen Lam](https://github.com/colleenhlam). The Devpost for this hackathon project is available at (https://devpost.com/software/ebtea)[https://devpost.com/software/ebtea].
 
-## Available Scripts
+## Inspiration
 
-In the project directory, you can run:
+Our inspiration was the food insecurity presentation by the QWERhacks speakers. Individuals who are low-income and food insecure are likely to elect for nutritionally inferior options such as fast food or foods with high quantities of sugar, oils, fats, etc. 
+Our project is a web application called EBTea that seeks to provide alternatives for healthier, nutritionally beneficial meals that are cheaper and more accessible by utilizing EBT/SNAP benefits.
 
-### `npm start`
+## What it does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our web application is a meal planner which keeps track of weekly spending and maintains user data about weekly meals. 
+Current features include being able to view meal plans for the week and being able to add the meals of the day below. One can also input their daily spendings and keep track of the current/remaining balance for the rest of the week.
+Future features we intend on implementing: a locator for EBT friendly and SNAP grocery stores/restaurants & nutrition ratings for each meal added to the planner in order to advise the user on how meals can be improved.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
+* React.js
+  * Material UI
+  * React Router
+* Google Firebase
+* GitHub
 
-### `npm test`
+## Challenges we ran into
+The initial challenge was setting up the base of the application for all four team members to begin developing. Two of us were new to React.js so we all worked together to overcome the learning curve and teach each other. Another challenge was using React hooks to fetch and update the user data in Firebase through the front-end. We solved these issues by reaching out for help with mentors at QWERhacks and discussing alternative solutions with other teammates. Additionally, we ran into problems installing npm modules which caused dependency errors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Using EBTea
 
-### `npm run build`
+### Local Hosting
+1. `git clone https://github.com/ajtadeo/qwer-hacks-2023.git`
+2. `cd qwer-hacks-2023`
+3. `npm i --force`
+4. `npm start` 
+5. Open [http://localhost:3000](http://localhost:3000) to view EBTea in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Deploying to Firebase
+1. `cd qwer-hacks-2023`
+2. `npm run build`
+3. `firebase deploy`
