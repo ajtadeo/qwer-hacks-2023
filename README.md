@@ -1,4 +1,4 @@
-# SimplyEBT
+# About SimplyEBT
 
 ## QWERhacks
 Originally EBTea, this project was originally created during QWERhacks 2023 where it won the title "Comeback Baby". It was developed by Alyssa Tadeo, [Alex West](https://github.com/awest25), [Tyler Tran](https://github.com/tylerdtran), and [Colleen Lam](https://github.com/colleenhlam). The Devpost for this hackathon project is available at https://devpost.com/software/ebtea.
@@ -27,7 +27,7 @@ The initial challenge was setting up the base of the application for all four te
 # Using SimplyEBT
 
 ### Local Hosting
-1. `git clone https://github.com/ajtadeo/qwer-hacks-2023.git`
+1. `git clone https://github.com/ajtadeo/simply-ebt.git`
 2. `cd qwer-hacks-2023`
 3. `npm i --force`
 4. `npm start` 
